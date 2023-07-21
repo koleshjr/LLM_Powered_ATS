@@ -106,14 +106,4 @@ def process_pdfs(pdf_folder, output_csv_file, prompt):
         return f"This error occurred: {e}" 
 
 
-if __name__ == '__main__':
-    pdf_folder_path ="data"
-    output_csv_file_path = "output/results.csv"
-
-    print("\n Welcome to your Applications Tracking System! ")
-    while True:
-
-        requirements = input("n\nRequest: ")
-        process_pdfs(pdf_folder_path,output_csv_file_path, requirements)
-
 
